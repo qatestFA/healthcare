@@ -115,3 +115,6 @@
 2019-11-03 22:46:56 INFO  TestBase:87 - enter source location
 2019-11-03 22:47:07 INFO  TestBase:90 - enter deatination location
 2019-11-03 22:47:08 INFO  TestBase:92 - click on search icon for route
+2019-11-03 23:26:59 INFO  TestBase:59 - Creating Object of chrome
+2019-11-03 23:27:48 INFO  TestBase:43 - Navigate to http://maps.google.com/
+2019-11-03 23:31:04 INFO  TestBase:82 - click on searchdirection icon
