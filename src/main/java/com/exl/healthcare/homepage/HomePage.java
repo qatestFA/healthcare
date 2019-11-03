@@ -52,7 +52,16 @@ public class HomePage extends TestBase {
 	WebElement distance_firstroute;
 
 	@FindBy(xpath="(//div[@class='section-directions-trip-description'])[2]/div/div/div[2]/div")
-	WebElement distance_secondroute;	
+	WebElement distance_secondroute;
+	
+	@FindBy(xpath="(//div[@class='section-directions-trip-description'])[3]/div/div[2]/h1/span")
+	WebElement title_thirdroute;
+	
+	@FindBy(xpath="(//div[@class='section-directions-trip-description'])[3]/div/div//div[1]/span[1]")
+	WebElement time_thirdroute;
+	
+	@FindBy(xpath="(//div[@class='section-directions-trip-distance section-directions-trip-secondary-text'])[3]/div")
+	WebElement distance_thirdroute;
 
 	public void searchIngooglemap() throws Exception {
 		loadData();
@@ -91,7 +100,8 @@ public class HomePage extends TestBase {
 			File file = new File("routes.txt");
 			output = new BufferedWriter(new FileWriter(file));
 			output.write(formater.format(calender.getTime())+"_"+"First Route Title: "+title_firstroute.getText()+ " Time: "+time_firstroute.getText()+ " miles: "+distance_firstroute.getText()+" \n");
-			output.write(formater.format(calender.getTime())+"_"+"Second Route Title: "+title_secondroute.getText()+ " Time: "+time_secondroute.getText()+ " miles: "+distance_secondroute.getText()+"");
+			output.write(formater.format(calender.getTime())+"_"+"Second Route Title: "+title_secondroute.getText()+ " Time: "+time_secondroute.getText()+ " miles: "+distance_secondroute.getText()+" \n");
+			output.write(formater.format(calender.getTime())+"_"+"Third Route Title: "+title_thirdroute.getText()+ " Time: "+time_thirdroute.getText()+ " miles: "+distance_thirdroute.getText()+"");
 		} catch ( IOException e ) {
 			e.printStackTrace();
 		} finally {
