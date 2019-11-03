@@ -21,6 +21,8 @@ public class TC003_verify_serachdirectionbycar extends TestBase {
 		homepage = new HomePage(driver);
 		homepage.searchbycar_direction();
 		homepage.createTextFile();
+		Thread.sleep(10000);
+		getscreenshotCapture();
 	}
 	
 	@AfterClass

@@ -19,19 +19,6 @@ public class Listener extends TestBase implements ITestListener{
 
 	public void onFinish(ITestContext result) {
 
-		Calendar calender = Calendar.getInstance();
-		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		String methodName = result.getName();
-		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String reportdirectory = new File(System.getProperty("user.dir")).getAbsolutePath();
-		File destFile = new File((String) reportdirectory + "/failure_screenshot/" + methodName + "_" + formater.format(calender.getTime())+ ".png");
-		try {
-			FileHandler.copy(srcFile, destFile);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}	
-		Reporter.log("<a href='"+destFile.getAbsolutePath()+"'> <img src='"+destFile.getAbsolutePath()+"' height='100' width='100'> </a>");
-
 	}
 
 	public void onStart(ITestContext result) {
