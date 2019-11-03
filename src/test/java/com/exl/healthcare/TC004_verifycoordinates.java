@@ -36,7 +36,6 @@ public class TC004_verifycoordinates  extends TestBase{
 			Reporter.log("Expected long: "+OR.getProperty("expected_long") +" Actual long: "+spliturl2[1]);
 			Assert.assertTrue(false);
 		}
-
 	}
 
 	@AfterClass
