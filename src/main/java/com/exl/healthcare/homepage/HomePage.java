@@ -84,7 +84,6 @@ public class HomePage extends TestBase {
 	}
 
 	public void createTextFile() throws IOException {
-		
 		BufferedWriter output = null;
 		try {
 			SimpleDateFormat formater = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss");
