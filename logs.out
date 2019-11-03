@@ -96,3 +96,22 @@
 2019-11-03 14:42:16 INFO  TestBase:43 - Navigate to http://maps.google.com/
 2019-11-03 14:42:24 INFO  TestBase:60 - enter text in searchinput box
 2019-11-03 14:42:24 INFO  TestBase:62 - click on search button
+2019-11-03 21:15:44 INFO  TestBase:59 - Creating Object of chrome
+2019-11-03 21:16:01 INFO  TestBase:43 - Navigate to http://maps.google.com/
+2019-11-03 21:34:43 INFO  TestBase:59 - Creating Object of chrome
+2019-11-03 21:34:56 INFO  TestBase:43 - Navigate to http://maps.google.com/
+2019-11-03 21:35:46 INFO  TestBase:73 - click on searchdirection icon
+2019-11-03 21:46:50 INFO  TestBase:59 - Creating Object of chrome
+2019-11-03 21:48:04 INFO  TestBase:43 - Navigate to http://maps.google.com/
+2019-11-03 21:49:18 INFO  TestBase:73 - click on searchdirection icon
+2019-11-03 21:49:25 INFO  TestBase:75 - click on drive direction icon
+2019-11-03 21:49:26 INFO  TestBase:78 - enter source location
+2019-11-03 21:49:27 INFO  TestBase:81 - enter deatination location
+2019-11-03 21:49:27 INFO  TestBase:83 - click on search icon for route
+2019-11-03 22:41:47 INFO  TestBase:59 - Creating Object of chrome
+2019-11-03 22:42:32 INFO  TestBase:43 - Navigate to http://maps.google.com/
+2019-11-03 22:45:37 INFO  TestBase:82 - click on searchdirection icon
+2019-11-03 22:45:57 INFO  TestBase:84 - click on drive direction icon
+2019-11-03 22:46:56 INFO  TestBase:87 - enter source location
+2019-11-03 22:47:07 INFO  TestBase:90 - enter deatination location
+2019-11-03 22:47:08 INFO  TestBase:92 - click on search icon for route

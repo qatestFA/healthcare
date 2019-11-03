@@ -1,2 +1,3 @@
-2019_11_03_09_21_01_First Route Title: I-80 W Time: 2 h 46 min miles: 164 miles 
-2019_11_03_09_21_01_Second Route Title: CA-99 S and I-80 W Time: 2 h 47 min miles: 170 miles
+2019_11_03_10_47_08_First Route Title: I-80 W Time: 3 h 2 min miles: 164 miles 
+2019_11_03_10_47_08_Second Route Title: CA-99 S and I-80 W Time: 3 h 24 min miles: 170 miles 
+2019_11_03_10_47_08_Third Route Title: CA-70 S and I-80 W Time: 3 h 49 min miles: 190 miles
