@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="searchcardirection">
+	<listeners>
+		<listener
+			class-name="com.exl.healthcare.customListener.Listener"></listener>
+	</listeners>
+	<test name="test_searchcardirection">
+		<classes>
+			<class
+				name="com.exl.healthcare.TC003_verify_serachdirectionbycar" />
+		</classes>
+	</test> <!-- test_searchcardirection -->
+</suite> <!-- searchcardirection -->
